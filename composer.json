@@ -1,6 +1,6 @@
 {
   "name": "gategem/cms",
-  "description": "laravel Content Management System support generator module plugin theme hook. like wordpress.",
+  "description": "laravel Content Management System support module plugin theme hook. like wordpress.",
   "keywords": [
     "GateGem",
     "laravel",
