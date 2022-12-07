@@ -1,0 +1,57 @@
+{
+  "name": "gategem/cms",
+  "description": "laravel Content Management System support generator module plugin theme hook. like wordpress.",
+  "keywords": [
+    "GateGem",
+    "laravel",
+    "Content Management System",
+    "cms",
+    "core",
+    "wordpress",
+    "GateGem Platform"
+  ],
+  "homepage": "https://github.com/GateGem/cms",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nguyen Van Hau",
+      "email": "nguyenvanhau.soft@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "GateGem\\CMS\\": "src",
+      "GateGem\\CMS\\Database\\Factories\\": "database/factories",
+      "GateGem\\CMS\\Database\\Seeders\\": "database/seeders"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "GateGem\\CMS\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "analyse": "vendor/bin/phpstan analyse",
+    "test": "vendor/bin/pest",
+    "test-coverage": "vendor/bin/pest --coverage",
+    "format": "vendor/bin/pint"
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GateGem\\CMS\\CMSServiceProvider"
+      ],
+      "aliases": {
+        "GateGemCMS": "GateGem\\CMS\\Facades\\CMS"
+      }
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

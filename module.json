@@ -1,0 +1,13 @@
+{
+  "name": "cms",
+  "alias": "GateGemCMS",
+  "description": "",
+  "keywords": [],
+  "priority": 0,
+  "namespace": "GateGem\\CMS",
+  "providers": ["GateGem\\CMS\\CMSServiceProvider"],
+  "aliases": [],
+  "files": [],
+  "requires": [],
+  "status": 1
+}
