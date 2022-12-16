@@ -1,0 +1,10 @@
+{
+    "name": "blog",
+    "alias": "blog",
+    "description": "",
+    "keywords": [],
+    "priority": 200,
+    "aliases": {},
+    "files": ["function.php"],
+    "requires": []
+}

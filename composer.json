@@ -24,6 +24,7 @@
   "autoload": {
     "psr-4": {
       "GateGem\\CMS\\": "src",
+      "GateGem\\CMS\\Widget\\": "widgets",
       "GateGem\\CMS\\Database\\Factories\\": "database/factories",
       "GateGem\\CMS\\Database\\Seeders\\": "database/seeders"
     }

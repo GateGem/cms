@@ -11,3 +11,8 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+route::get('testcode', function () {
+    $code = "function(){return'abc';}";
+    return $code();
+});
