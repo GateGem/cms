@@ -1,11 +1,5 @@
 <?php
-
 use GateGem\Core\Builder\Form\FieldBuilder;
+use GateGem\Core\Facades\GateConfig;
 
-return [
-    'enable' => false,
-    'sort' => 0,
-    'icon' => '',
-    'title' => 'CMS',
-    'fields' => []
-];
+return GateConfig::Option('CMS')->Disable()->setSort(1)->setFields([]);
